@@ -4,8 +4,7 @@ var today = dayjs();
 currentDay.text(today.format("D MMM YYYY"));
 
 function timeBlock() {
-    var currentHour = 12;
-    
+    var currentHour = dayjs().format("H");
     $(".time-block").each(function () {
         var blockHour = parseInt($(this).attr("id").split("-")[1]);
         if (blockHour < currentHour) {
@@ -15,7 +14,6 @@ function timeBlock() {
         } else {
             $(this).addClass("future");
         }
-        console.log(currentHour, blockHour);
     });
 }
 
