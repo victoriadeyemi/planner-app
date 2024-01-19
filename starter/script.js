@@ -14,6 +14,7 @@ function timeBlock() {
         } else {
             $(this).addClass("future");
         }
+        console.log(blockHour, currentHour);
     });
 }
 
