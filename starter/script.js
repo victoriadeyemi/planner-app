@@ -1,6 +1,7 @@
 
 const currentDay = $("#currentDay");
-var today = dayjs().format("dddd, MMMM D");
+var today = dayjs();
+currentDay.text.format("dddd, MMMM D");
 
 function timeBlock() {
     var currentHour = dayjs().format("H");
