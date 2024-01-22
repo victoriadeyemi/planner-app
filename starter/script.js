@@ -1,3 +1,9 @@
+// event listener for save button
+$(".saveBtn").on("click", function () {
+var value = $(this).siblings(".description").val();
+var time = $(this).parent().attr("id");
+localStorage.setItem(time, value);
+});
 
 const currentDay = $("#currentDay");
 var today = dayjs();
@@ -17,5 +23,7 @@ function timeBlock() {
         console.log(blockHour, currentHour);
     });
 }
+
+
 
 timeBlock();
