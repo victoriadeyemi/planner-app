@@ -24,6 +24,9 @@ function timeBlock() {
     });
 }
 
-
+//for loop for getItem
+for (var i = 9; i < 18; i++) {
+    $("#hour-" + i + " .description").val(localStorage.getItem("hour-" + i));
+}
 
 timeBlock();
