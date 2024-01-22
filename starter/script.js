@@ -5,10 +5,12 @@ var time = $(this).parent().attr("id");
 localStorage.setItem(time, value);
 });
 
+// current day function
 const currentDay = $("#currentDay");
 var today = dayjs();
 currentDay.text(today.format("D MMM YYYY"));
 
+// time block function
 function timeBlock() {
     var currentHour = dayjs().format("H");
     $(".time-block").each(function () {
