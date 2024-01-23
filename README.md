@@ -16,6 +16,6 @@ Color-coded each timeblock based on past, present, and future timing for when th
 Created for loop for getItem to persist events between refreshes of a page.
 
 Link to repository: https://github.com/victoriadeyemi/planner-app
-Link to the deployed application:
+Link to the deployed application: https://victoriadeyemi.github.io/planner-app/
 Screenshot of deployed application: ![Screenshot of deployed planner application](assets/images/image-file-name.png)
 
