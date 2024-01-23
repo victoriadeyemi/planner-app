@@ -1,6 +1,10 @@
 # planner-app
 Planner/Scheduler App
 
+I created a new repository named planner-app.
+
+The planner app is built with html, CSS and javaScript files.
+
 Created an event listener for save button.
 
 Displayed the current day at the top of the calender when a user opens the planner with dayjs function.
