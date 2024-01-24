@@ -17,5 +17,6 @@ Created for loop for getItem to persist events between refreshes of a page.
 
 Link to repository: https://github.com/victoriadeyemi/planner-app
 Link to the deployed application: https://victoriadeyemi.github.io/planner-app/
-Screenshot of deployed application: ![Screenshot of deployed planner application](assets/images/image-file-name.png)
+Screenshot of deployed application: ![Screenshot of deployed planner application](assets/images/planner%20app%20deployed%201.png)
+![Screenshot of deployed planner application](assets/images/planner%20app%20deployed%202.png)
 
